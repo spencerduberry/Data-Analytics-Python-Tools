@@ -1,6 +1,20 @@
 # Data Analytics Tools - Python
 A set of generic templates for data preprocessing, exploratory analysis, text analysis and data visualisation. This repository is designed to demonstrate proficiency in key data analytics techniques and tools.
 
+## Table of Contents
+1. [About the Repository](#about-the-repository)
+2. [Contents](#contents)
+   - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+   - [Preprocessing](#preprocessing)
+   - [Text Analysis](#text-analysis)
+   - [Visualisation](#visualisation)
+3. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Install required packages](#install-required-packages)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [Contact](#contact)
+
 ## About the Repository
 This repository is a curated collection of Jupyter Notebooks that serve as templates for various tasks in the data analytics process. The purpose of this repository is to:
 * Showcase proficiency with Python for data-related tasks.
@@ -9,24 +23,24 @@ This repository is a curated collection of Jupyter Notebooks that serve as templ
 * It is aimed at prospective employers and anyone interested in data analytics.
 
 ## Contents
-1. **Exploratory Data Analysis (EDA)**
+1. ### Exploratory Data Analysis (EDA)
    * Correlation Analysis
    * Distribution Tests
    * Similarity Analysis
-3. **Preprocessing**
+2. ### Preprocessing
    * Sampling Methods
    * Aggregation
    * Binarisation
    * Handling Duplicates
    * Extracting Nominal Categories
    * Handling Missing Values
-4. **Text Analysis**
+4. ### Text Analysis
    * Case Folding
    * Normalisation
    * Stemming
    * Stop Word Removal
    * Tokenisation
-5. **Visualisation**
+5. ### Visualisation
    * Heatmaps
    * Histograms
    * Scatterplots
