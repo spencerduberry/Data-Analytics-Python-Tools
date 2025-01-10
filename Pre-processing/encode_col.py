@@ -1,6 +1,7 @@
 import pandas as pd
 
-def encode_col(df: pd.DataFrame, col:str) -> pd.DataFrame:
+
+def encode_col(df: pd.DataFrame, col: str) -> pd.DataFrame:
     """Encodes a column of a Dataframe by mapping unique values to integers
 
     Args:
@@ -10,5 +11,7 @@ def encode_col(df: pd.DataFrame, col:str) -> pd.DataFrame:
     Returns:
         pd.DataFrame: A DataFrame containing the encoded column in addition to the original data
     """
-    df[f'{col}_encoded'] = df[col].map({k: i for i, k in enumerate(sorted(df[col].unique()))})
+    df[f"{col}_encoded"] = df[col].map(
+        {k: i for i, k in enumerate(sorted(df[col].unique()))}
+    )
     return df
