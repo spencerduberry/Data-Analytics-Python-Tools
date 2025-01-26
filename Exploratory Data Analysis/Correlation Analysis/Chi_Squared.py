@@ -12,13 +12,13 @@ def chi_squared(df: pd.DataFrame, col_1: str, col_2: str):
     """Performs a chi-squared test based on data from two columns in a DataFrame
 
     Args:
-        df (pd.DataFrame): The input DataFrame containing teh columsn for the chi-squared test
-        col_1 (str): The name of the volumn containing the dependent variable
-        col_1 (str): The name of the volumn containing the independent variable
+        df (pd.DataFrame): The input DataFrame containing the columns for the chi-squared test
+        col_1 (str): The name of the column containing the dependent variable
+        col_1 (str): The name of the column containing the independent variable
 
     Returns:
         chi2 (float): The chi-squared result of comparing the two columns
-        p (float): the probability of observing a
+        p (float): The probability of observing a
                    test statistic as extreme or more extreme
                    than the one calculated, assuming the null
                    hypothesis (no association between the variables)
